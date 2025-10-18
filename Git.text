@@ -17,20 +17,23 @@ git commit -m "new changes"  --> Now all the changes are in local repository  {n
 
 git push origin mybranch  --> created branchname
 
-Now go to github, where we can the created branch along with pull requests..
+Now go to github, where we can the see the created branch along with pull requests..  "Compare and pull request"
 
-we have to push our code from our own branch to Master branch. To do that, click "Compare and pull request" in Git hub. That will take us to the next screen
+we have to push our code from our own branch to Master branch. {make sure main branch is selected state}
+To do that, click "Compare and pull request" in Git hub. That will take us to the next screen
+
+Base: MAster <-- compare: mybranch
 
 Fill Add Title, and Description -> Click "Create pull request"  --> This will create the pull request.
 
 Then code will be reviewed by teammate. and then if all good, they will suggets to merge code..
 Then we directly hit "Merge pull request" button. if any comments given that we heed to solve and raise pull request again.
 
-hit "confirm merge" then we can see the code updated in Main/master branch. 
+hit "confirm merge" then we can see the code updated in Main/master branch. ...
 
 the Above process will be for first time.. 
-if we make changes again and try to merge it in main branch... we wont able to see the ""Compare and pull request"" this option in git repository.
-
+if we make changes again in local repository and try to merge it in main branch... we wont able to see the ""Compare and pull request"" this option in git repository.
+do chnage in local repo 
 git add .
 
 git status
