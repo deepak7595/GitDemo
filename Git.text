@@ -1,0 +1,69 @@
+navigate to the folder, where we clone the repository.. 
+
+go inside the folder by using "cd foldername"
+
+git checkout -b mybranch  -- execute the command. {Make sure, we execute the command, when we swicthed to the actual folder}.
+we will get switched to new branch branchname
+
+
+git branch --show-current  --> this will show where we pointing out
+
+Once changes are done in files and added new files in local repository, then 
+git add .
+
+git status
+
+git commit -m "new changes"  --> Now all the changes are in local repository  {newly created  branch not in master} from workspace.
+
+git push origin mybranch  --> created branchname
+
+Now go to github, where we can the created branch along with pull requests..
+
+we have to push our code from our own branch to Master branch. To do that, click "Compare and pull request" in Git hub. That will take us to the next screen
+
+Fill Add Title, and Description -> Click "Create pull request"  --> This will create the pull request.
+
+Then code will be reviewed by teammate. and then if all good, they will suggets to merge code..
+Then we directly hit "Merge pull request" button. if any comments given that we heed to solve and raise pull request again.
+
+hit "confirm merge" then we can see the code updated in Main/master branch. 
+
+the Above process will be for first time.. 
+if we make changes again and try to merge it in main branch... we wont able to see the ""Compare and pull request"" this option in git repository.
+
+git add .
+
+git status
+
+git commit -m "second chnages"
+
+git push origin mybranch
+
+we can able to see the chnages in our mybranch, but that chnages are not present in main/master 
+
+select our mybranch  -> go to "Pull request"
+
+click "New pull request"
+
+once we select, that will show base and Compare
+in Main -> it should point "Main/master", Commpare should point "mybranch"
+
+
+
+Click "create pull request"
+
+Provide Description -> Click create pull request
+
+if any changes peer will provide comment. if all good, they will click "Merge pull request"
+
+click "Confirm merge".
+
+Now we able to see the changes are updated in main/master branch
+
+
+
+
+
+
+
+
