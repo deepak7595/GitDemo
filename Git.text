@@ -49,7 +49,10 @@ select our mybranch  -> go to "Pull request"
 click "New pull request"
 
 once we select, that will show base and Compare
-in Main -> it should point "Main/master", Commpare should point "mybranch"
+
+Option should be,
+
+Base: MAster <-- compare: mybranch
 
 
 
